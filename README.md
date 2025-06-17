@@ -2,6 +2,9 @@
 
 ## Der Python-Code zum Replizieren der Tabellen 1–3
 
+Das Jupyter-Notebook befindet sich unter: https://github.com/esefpaper/onlineappendix/blob/main/code/Tabellen.ipynb
+
+Der Inhalt wird auch unten angezeigt (als Markdown).
 
 ```python
 import pandas as pd
