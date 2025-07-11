@@ -4,7 +4,16 @@
 
 Das Jupyter-Notebook befindet sich unter: https://github.com/esefpaper/onlineappendix/blob/main/code/Tabellen.ipynb
 
+
+
 Der Inhalt wird auch unten angezeigt (als Markdown).
+
+```bash
+!pip install --force-reinstall numpy==2.2.4 pandas==2.2.3
+!pip install openpyxl
+```
+
+
 
 ```python
 import pandas as pd
