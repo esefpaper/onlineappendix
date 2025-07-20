@@ -26,7 +26,7 @@ Tabelle 1 zeigt die ESEF-Konformitätsraten deut-scher kapitalmarktorientierter 
 
 
 ```python
-tb1_uregdw_s5 = pd.read_pickle("../data/tb1_uregdw_s5_20250616.p.gz")
+tb1_uregdw_s5 = pd.read_csv("../data/tb1_uregdw_s5_20250616.csv.gz", sep="|", compression="gzip")
 ```
 
 
@@ -593,8 +593,9 @@ Tabelle 2 analysiert die Verwendung von Standard-IFRS-Taxonomie-Tags und firmens
 
 
 ```python
-data_tb2 = pd.read_pickle("../data/data_tb2_20250616.p.gz", compression="gzip")
-data_tb2i = pd.read_pickle("../data/data_tb2i_20250616.p.gz", compression="gzip")
+data_tb2 = pd.read_csv("../data/data_tb2_20250616.csv.gz", sep="|", compression="gzip")
+data_tb2i = pd.read_csv("../data/data_tb2i_20250616.csv.gz", sep="|", compression="gzip")
+
 ```
 
 
