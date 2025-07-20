@@ -18,6 +18,9 @@ Der Inhalt wird auch unten angezeigt (als Markdown).
 ```python
 import pandas as pd
 import re
+import os
+os.makedirs("../results", exist_ok=True)
+
 ```
 
 ### Tabelle 1
